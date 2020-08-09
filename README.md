@@ -9,7 +9,7 @@ Installation
 Just run 
 
 ```bash
-composer require mcuelenaere/composer-revision-plugin
+composer require joaomfrebelo/composer-revision-plugin
 ```
 
 to add this package as a composer dependency to your project.
