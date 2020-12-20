@@ -1,7 +1,7 @@
 {
 	"name": "joaomfrebelo/composer-revision-plugin",
 	"type": "composer-plugin",
-        "version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Simple composer plugin which generates a class containing the VCS references of all packages, derivated from (mcuelenaere/composer-revision-plugin)",
 	"homepage": "https://github.com/joaomfrebelo/composer-revision-plugin",
 	"authors": [
@@ -11,7 +11,6 @@
 		}
 	],
 	"license": "MIT",
-
 	"autoload": {
 		"psr-4": {
 			"ComposerRevisionPlugin\\": "src/"
@@ -22,13 +21,12 @@
 	},
 	"minimum-stability": "alpha",
 	"require": {
-		"composer-plugin-api": "~1.0",
+		"composer-plugin-api": "^2.0",
 		"php": ">=5.3"
 	},
 	"require-dev": {
-		"composer/composer": "1.*"
+		"composer/composer": "^2.0"
 	},
-
 	"extra": {
 		"class": "ComposerRevisionPlugin\\Plugin"
 	}
