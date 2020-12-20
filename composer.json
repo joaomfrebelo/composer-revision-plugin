@@ -1,7 +1,7 @@
 {
 	"name": "joaomfrebelo/composer-revision-plugin",
 	"type": "composer-plugin",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Simple composer plugin which generates a class containing the VCS references of all packages, derivated from (mcuelenaere/composer-revision-plugin)",
 	"homepage": "https://github.com/joaomfrebelo/composer-revision-plugin",
 	"authors": [
